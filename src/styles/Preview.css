@@ -1,0 +1,23 @@
+.preview {
+  background: rgba(
+    255,
+    255,
+    255,
+    0.212
+  );
+  border: 1px solid
+    rgba(255, 255, 255, 0.13);
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.preview:not(:first-of-type) {
+  margin: 10px 0;
+}
+
+.preview-board {
+  display: grid;
+  grid-gap: 2px;
+  grid-template-rows: repeat(4, 1fr);
+  grid-template-columns: repeat(4, 1fr);
+}

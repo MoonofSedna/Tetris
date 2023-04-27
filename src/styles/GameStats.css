@@ -1,0 +1,31 @@
+.game-stats {
+  list-style-type: none;
+  color: rgba(255, 255, 255, 0.836);
+  font-weight: 600;
+  font-family: "Montserrat", sans-serif;
+}
+
+.game-stats-left {
+  right: 0;
+  top: 22vh;
+  text-align: left;
+}
+
+.game-stats-right {
+  right: 0;
+  bottom: 0;
+  text-align: left;
+}
+
+.game-stats li {
+  text-transform: capitalize;
+  padding: 0.5rem 0;
+  font-size: clamp(10px, 1vw, 20px);
+}
+
+.game-stats .value {
+  font-family: "Press Start 2P", cursive;
+  font-size: clamp(10px, 3vw, 30px);
+  margin-bottom: 0.5em;
+  color: rgba(255, 255, 255, 1);
+}

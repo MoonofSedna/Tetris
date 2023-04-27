@@ -1,0 +1,140 @@
+.popover-content {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.popover button {
+  background: rgba(
+    200,
+    168,
+    230,
+    0.336
+  );
+  border: 1px solid
+    rgba(255, 255, 255, 0.13);
+  border-radius: 1000%;
+  color: #333;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 400;
+  margin: 0;
+  padding: 1rem;
+  text-align: center;
+  vertical-align: middle;
+  white-space: nowrap;
+  transition: all 0.3s ease-in-out;
+}
+
+.popover button:hover {
+  outline: none;
+  transition: all 0.3s ease-in-out;
+  background-color: rgba(
+    218,
+    97,
+    255,
+    0.616
+  );
+}
+
+.popover svg {
+  font-size: 3rem;
+  color: #fff;
+  transform: rotate(-180deg) scale(1);
+  transition: all 0.3s ease-in-out;
+}
+
+.popover button:hover svg {
+  transform: rotate(180deg) scale(1.1);
+  transition: all 0.3s ease-in-out;
+}
+
+.game-options {
+  position: absolute;
+  bottom: 35px;
+  right: 35px;
+}
+
+.popover-body {
+  position: absolute;
+  width: max-content;
+  padding: 1rem 1.5rem;
+  bottom: 100px;
+  right: 0;
+  transition: fade-in 0.3s ease-in-out;
+  border-radius: 10px;
+  background: rgba(
+    200,
+    168,
+    230,
+    0.336
+  );
+  border: 1px solid
+    rgba(255, 255, 255, 0.13);
+  animation-name: fadeInOpacity;
+  animation-iteration-count: 1;
+  animation-timing-function: ease-in;
+  animation-duration: 0.2s;
+  opacity: 1;
+}
+
+@keyframes fadeInOpacity {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeOutOpacity {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+.game-options-content li {
+  list-style: none;
+  padding: 10px 0;
+  font-family: "Press Start 2P";
+  font-size: 16px;
+  font-weight: 500;
+  text-align: left;
+  color: #f9f9f9;
+}
+
+.game-options-content li input {
+  margin: 0 10px;
+  height: 20px;
+  width: 20px;
+  border-radius: 10px;
+}
+
+.game-options-content li input:checked {
+  accent-color: yellow;
+}
+
+.controls
+  li:not(:first-of-type)::before {
+  content: "+";
+  margin-right: 10px;
+}
+
+.game-options-content .arrows {
+  color: rgba(80, 227, 230, 1);
+}
+
+.game-options-content .spacebar {
+  color: rgba(223, 173, 36, 1);
+}
+
+.game-options-content .pause {
+  color: rgba(240, 80, 195, 1);
+}
+
+.game-options-content .exit {
+  color: rgba(48, 211, 56, 1);
+}
