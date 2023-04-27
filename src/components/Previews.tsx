@@ -1,6 +1,7 @@
 import { memo } from "react";
 // components
 import Preview from "./Preview";
+// interfaces
 import { PreviewsProps } from "../interfaces/preview.interface";
 
 const Previews = memo(

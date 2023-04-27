@@ -1,9 +1,12 @@
+// components
 import Game from "./components/Game";
 import Popover from "./components/Popover";
-import "./styles/App.css";
 import { Icon } from "./components/Icons";
-import GameOptionsProvider from "./utils/GameOptionsContext";
 import GameOptions from "./components/GameOptions";
+// styles
+import "./styles/App.css";
+// utils
+import GameOptionsProvider from "./utils/GameOptionsContext";
 
 function App() {
   return (

@@ -3,6 +3,7 @@ import {
   useCallback,
   useEffect,
 } from "react";
+// interfaces
 import { GameStats } from "../interfaces/tetris.interface";
 
 const defaultDropTime = 1000;

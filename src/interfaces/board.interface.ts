@@ -1,3 +1,4 @@
+// interfaces
 import { Player } from "./preview.interface";
 
 export interface BoardProps {

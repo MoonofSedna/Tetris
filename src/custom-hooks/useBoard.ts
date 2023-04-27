@@ -2,11 +2,13 @@ import {
   useEffect,
   useState,
 } from "react";
+// interfaces
+import { BoardProps } from "../interfaces/board.interface";
+// utils
 import {
   buildBoard,
   nextBoard,
 } from "../utils/Board";
-import { BoardProps } from "../interfaces/board.interface";
 
 export const useBoard = ({
   rows,

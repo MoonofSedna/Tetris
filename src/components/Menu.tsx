@@ -1,3 +1,4 @@
+// styles
 import "../styles/Menu.css";
 
 interface MenuProps {

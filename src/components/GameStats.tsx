@@ -1,4 +1,5 @@
 import { memo, Fragment } from "react";
+// interfaces
 import { GameStatsProps } from "../interfaces/tetris.interface";
 // styles
 import "../styles/GameStats.css";

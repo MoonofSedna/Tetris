@@ -2,8 +2,10 @@ import {
   useState,
   useCallback,
 } from "react";
-import { randomTetromino } from "../utils/Tetrominoes";
+// interfaces
 import { Player } from "../interfaces/preview.interface";
+// utils
+import { randomTetromino } from "../utils/Tetrominoes";
 
 const buildPlayer = (
   previous?: Player

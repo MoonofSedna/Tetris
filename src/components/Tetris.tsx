@@ -2,15 +2,15 @@ import { useState } from "react";
 // components
 import Board from "./Board";
 import GameStats from "./GameStats";
-// hooks
-import { useBoard } from "../custom-hooks/useBoard";
-import { useGameStats } from "../custom-hooks/useGameStats";
-// styles
-import "../styles/Tetris.css";
-import { usePlayer } from "../custom-hooks/usePlayer";
 import Previews from "./Previews";
 import GameController from "./GameController";
 import Pause from "./Pause";
+// hooks
+import { useBoard } from "../custom-hooks/useBoard";
+import { useGameStats } from "../custom-hooks/useGameStats";
+import { usePlayer } from "../custom-hooks/usePlayer";
+// styles
+import "../styles/Tetris.css";
 
 interface TetrisProps {
   columns: number;

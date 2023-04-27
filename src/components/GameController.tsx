@@ -1,3 +1,4 @@
+import { useEffect } from "react";
 // hooks
 import { useDropTime } from "../custom-hooks/useDropTime";
 import { useInterval } from "../custom-hooks/useInterval";
@@ -10,11 +11,10 @@ import {
   actionIsDrop,
 } from "../utils/Input";
 import { playerController } from "../utils/PlayerController";
-// styles
-import "../styles/GameController.css";
-import { useEffect } from "react";
 import { sound } from "../utils/Sound";
 import { sounds } from "../utils/SoundList";
+// styles
+import "../styles/GameController.css";
 
 const GameController = ({
   paused,

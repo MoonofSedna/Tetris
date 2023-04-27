@@ -1,3 +1,4 @@
+// interfaces
 import { BoardCell } from "../interfaces/board.interface";
 
 export default function BoardCellComponent({

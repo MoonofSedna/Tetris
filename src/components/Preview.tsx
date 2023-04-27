@@ -1,9 +1,13 @@
 import { memo } from "react";
+// components
+import BoardCell from "./BoardCell";
+// interfaces
+import { PreviewProps } from "../interfaces/preview.interface";
+// styles
+import "../styles/Preview.css";
+// utils
 import { buildBoard } from "../utils/Board";
 import { transferToBoard } from "../utils/Tetrominoes";
-import { PreviewProps } from "../interfaces/preview.interface";
-import BoardCell from "./BoardCell";
-import "../styles/Preview.css";
 
 const Preview = memo(function Preview({
   tetromino,

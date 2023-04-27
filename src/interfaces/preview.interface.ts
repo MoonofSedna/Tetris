@@ -1,11 +1,9 @@
+// interfaces
 import {
   Board,
   BoardPieces,
 } from "./board.interface";
-import {
-  GameStats,
-  GameStatsProps,
-} from "./tetris.interface";
+import { GameStats } from "./tetris.interface";
 
 export interface PreviewProps {
   tetromino: {

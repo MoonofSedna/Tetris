@@ -1,3 +1,4 @@
+//interfaces
 import { BoardPieces } from "./../interfaces/board.interface";
 
 const className = "tetromino";

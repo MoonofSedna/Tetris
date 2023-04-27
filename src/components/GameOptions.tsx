@@ -1,4 +1,5 @@
 import { useContext } from "react";
+// context
 import { GameOptionsContext } from "../utils/GameOptionsContext";
 
 export default function GameOptions() {
