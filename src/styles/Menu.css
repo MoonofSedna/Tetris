@@ -80,11 +80,11 @@
 .hero {
   font-size: clamp(30px, 6vw, 80px);
   font-family: "Press Start 2P", cursive;
-  line-height: 1rem;
   display: inline-block;
   color: #fff;
   z-index: 2;
   filter: drop-shadow(0 1px 3px);
+  overflow: hidden;
 }
 
 .demo {
@@ -554,7 +554,11 @@
 
 .best-score {
   font-family: "Press Start 2P", cursive;
-  line-height: 2.5rem;
-  font-size: 1.6rem;
+  line-height: clamp(
+    1.8rem,
+    2vw,
+    1.8rem
+  );
+  font-size: clamp(1.5rem, 2vw, 1.8rem);
   color: #fff;
 }

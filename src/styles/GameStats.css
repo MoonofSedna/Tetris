@@ -20,12 +20,12 @@
 .game-stats li {
   text-transform: capitalize;
   padding: 0.5rem 0;
-  font-size: clamp(10px, 1vw, 20px);
+  font-size: clamp(10px, 0.8vw, 18px);
 }
 
 .game-stats .value {
   font-family: "Press Start 2P", cursive;
-  font-size: clamp(10px, 3vw, 30px);
+  font-size: clamp(10px, 1vw, 25px);
   margin-bottom: 0.5em;
   color: rgba(255, 255, 255, 1);
 }

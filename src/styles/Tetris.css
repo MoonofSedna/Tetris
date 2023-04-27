@@ -1,12 +1,11 @@
 .tetris {
-  width: 90%;
-  max-width: 900px;
+  width: clamp(350px, 100vw, 32vw);
   display: grid;
   grid-template-columns: 1fr 22%;
 }
 
 .game-bar {
-  padding: 0 1.5rem;
+  padding: 0 calc(1rem + 1px);
 }
 
 .paused {
@@ -58,4 +57,16 @@
     0.616
   );
   color: #fff;
+}
+
+@media screen and (max-width: 1650px) {
+  .tetris {
+    width: clamp(350px, 80vw, 50vw);
+  }
+}
+
+@media screen and (max-width: 1236px) {
+  .tetris {
+    width: clamp(350px, 80vw, 60vw);
+  }
 }
